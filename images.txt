@@ -1,0 +1,12 @@
+---
+'Header pictures':
+  - htdocs/images/10941270_3ebac82d4d_o.jpg:
+    site: 'http://www.flickr.com/photos/ramsaythomson/10941270/'
+    by:   'ramsaythomson'
+    license_name: 'CC/by_SA'
+    license_link: 'http://creativecommons.org/licenses/by-sa/2.0/deed.en_GB'
+  - htdocs/images/2614960425_276a8bd678_o.jpg:
+    link: 'http://www.flickr.com/photos/chrisnicolson/2614960425/'
+    by: chrisnicolson
+    license_name: 'CC/by'
+    license_link: 'http://creativecommons.org/licenses/by-nc/2.0/'

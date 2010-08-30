@@ -1,0 +1,20 @@
+: cascade "page.tx" { current_page => 'Join us', last_updated => '2010-08-28', }
+: around body -> {
+      <h1>Joining Glasgow Perl Mongers</h1>
+      <hr />
+
+      <h3>Join the Mailing List</h3>
+      <div class="article">
+        You can join the mailing list by visiting the
+          <a href="http://groups.google.com/group/glasgowpm">mailing list</a> page.<br />
+        From there, you will also be able to look at the archives.
+      </div>
+
+      <div class="divider">&nbsp;</div>
+
+      <h3>Come to a meeting</h3>
+      <div class="article">
+        Unfortunately we have not yet scheduled a meeting, but as soon as we do you will
+        also be able to join us at either a technical or a social meeting.
+      </div>
+: }

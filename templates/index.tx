@@ -1,0 +1,56 @@
+: cascade "page.tx" { current_page => 'Home', last_updated => '2010-08-30', }
+: around body -> {
+      <h1>Glasgow Perl Mongers</h1>
+      <hr />
+
+      <div>
+          Our mailing list can be found on
+          <a href="http://groups.google.com/group/glasgowpm">Google Groups</a>.
+      </div>
+      <div>
+          If you live or work in the Glasgow area and would like to
+          participate in our technical and social meetings, join the
+          mailing list.
+      </div>
+      <div>
+          <em>News</em>: Looks like we have a venue; stay tuned for more information.
+      </div>
+
+      <div class="divider">&nbsp;</div>
+      <div id="twitter">
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '#perl',
+  interval: 6000,
+  title: 'Latest tweets about...',
+  subject: '#perl',
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#8ec1da',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#1985b5'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: true,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    toptweets: true,
+    behavior: 'default'
+  }
+}).render().start();
+</script>
+      </div>
+: }

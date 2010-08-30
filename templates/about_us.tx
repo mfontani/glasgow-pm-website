@@ -1,0 +1,19 @@
+: cascade "page.tx" { current_page => 'About us', last_updated => '2010-08-28', }
+: around body -> {
+      <h1>About Glasgow Perl Mongers</h1>
+      <hr />
+
+      <h3>What is Glasgow.pm?</h3>
+      <div class="article">
+        Glasgow Perl Mongers is a group of people who use <a href="http://www.perl.org/">Perl</a>
+        in their work or personal programming projects, and like to meet and talk about it.
+      </div>
+
+      <div class="divider">&nbsp;</div>
+
+      <h3>How do I get in touch?</h3>
+      <div class="article">
+        Contact us via the <a href="http://groups.google.com/group/glasgowpm">mailing list</a>.<br />
+        If you want to get in touch with the leader, e-mail mfontani at cpan dot org.
+      </div>
+: }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Glasgow.pm: Glasgow Perl Mongers<: $title :></title>
+    <meta name="keywords" content="Glasgow Perl">
+    <link rel="stylesheet" href="/glasgow-site.css" />
+    <script src="/jquery-1.4.2.min.js"></script>
+</head>
+<body>
+
+: macro header_for -> $for_page {
+:     if ( $current_page == $for_page ) {
+:         "class=\"header_selected\" " | raw
+:     }
+: }
+
+  <div id="page">
+
+    <div id="header" class="header_image_1">
+      <ul id="menu" class="tabs">
+        <li><a <: header_for('Home') :>href="/">Home</a></li>
+        <li><a <: header_for('About us') :>href="/about_us.html">About us</a></li>
+        <li><a <: header_for('Meetings') :>href="/meetings.html">Meetings</a></li>
+        <li><a title="Google Groups" href="http://groups.google.com/group/glasgowpm">Mailing List</a></li>
+        <li><a <: header_for('Join us') :>style="float: right;padding-right:15px;" href="/join.html">Join us</a></li>
+      </ul>
+    </div>
+
+    <div id="body">
+        : block body -> { }
+    </div>
+
+    <div id="footer">
+      <span id="updated">Last updated: <: $last_updated :></span> by Marco Fontani
+      --
+      <span id="credits">Header picture by <a href="http://www.flickr.com/photos/ramsaythomson/10941270/">ramsaythomson</a>,
+      <a href="http://creativecommons.org/licenses/by-sa/2.0/deed.en_GB">CC/by_SA</a></span>
+      --
+      Site created using <a href="http://search.cpan.org/dist/Text-Xslate/">Text::Xslate</a>
+    </div>
+
+  </div>
+  <script>
+      $(document).ready(function(){
+          function set_header_image_2() {
+              $('#header').removeClass('header_image_1');
+              $('#header').addClass('header_image_2');
+              setTimeout(function() { set_header_image_1() },30000);
+          }
+          function set_header_image_1() {
+              $('#header').removeClass('header_image_2');
+              $('#header').addClass('header_image_1');
+              setTimeout(function() { set_header_image_2() },30000);
+          }
+          setTimeout(function() { set_header_image_2(); },30000);
+      });
+  </script>
+</body>
+</html>

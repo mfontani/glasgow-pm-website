@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Glasgow.pm: Glasgow Perl Mongers</title>
+    <meta name="keywords" content="Glasgow Perl">
+    <link rel="stylesheet" href="/glasgow-site.css" />
+    <script src="/jquery-1.4.2.min.js"></script>
+</head>
+<body>
+
+
+  <div id="page">
+
+    <div id="header" class="header_image_1">
+      <ul id="menu" class="tabs">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about_us.html">About us</a></li>
+        <li><a class="header_selected" href="/meetings.html">Meetings</a></li>
+        <li><a title="Google Groups" href="http://groups.google.com/group/glasgowpm">Mailing List</a></li>
+        <li><a style="float: right;padding-right:15px;" href="/join.html">Join us</a></li>
+      </ul>
+    </div>
+
+    <div id="body">
+      <h1>Glasgow Perl Mongers</h1>
+      <hr />
+
+      <h2>Information about meetings</h2>
+      <hr />
+
+      <h3>When do meetings take place?</h3>
+      <div class="article">
+        The group has not yet decided on a specific meeting date, but in order
+        to not co-incide with the timing of the Edinburgh.pm's meetings
+        (fourth Thursday of the month)
+        it is likely meetings will be held on the second week of the month,
+        possibly on Thursdays.<br />
+        As soon as a decision is made, this section will contain the next three meetings' dates.
+      </div>
+
+      <div class="divider">&nbsp;</div>
+
+      <h3>Where do meetings take place?</h3>
+      <div class="article">
+        The group has been promised a venue; details are being collected,
+        and information will be displayed here and sent on the mailing list
+        as soon as possible.
+      </div>
+
+      <div class="divider">&nbsp;</div>
+
+      <h3>What kind of meetings should I expect?</h3>
+      <div class="article">
+        The aim is to have predominantly technical meetings, with the odd social meeting once in a while.
+        The timing of the meetings does also allow members from nearby Perl Mongers group to participate.<br />
+        If you're interested, please join the discussion on the <a href="http://groups.google.com/group/glasgowpm">mailing list</a> to voice your opinion.
+      </div>
+
+      <div class="divider">&nbsp;</div>
+      <h3>Where are the meetings slides?</h3>
+      <div class="article">
+        Heh, we'd have to have a meeting first! The aim is to either host the slides on this server, or
+        to have specific pages for each of our technical meetings and -- providing the author doesn't mind
+        -- the slides will be available shortly after the meeting.
+      </div>
+    </div>
+
+    <div id="footer">
+      <span id="updated">Last updated: 2010-08-28</span> by Marco Fontani
+      --
+      <span id="credits">Header picture by <a href="http://www.flickr.com/photos/ramsaythomson/10941270/">ramsaythomson</a>,
+      <a href="http://creativecommons.org/licenses/by-sa/2.0/deed.en_GB">CC/by_SA</a></span>
+      --
+      Site created using <a href="http://search.cpan.org/dist/Text-Xslate/">Text::Xslate</a>
+    </div>
+
+  </div>
+  <script>
+      $(document).ready(function(){
+          function set_header_image_2() {
+              $('#header').removeClass('header_image_1');
+              $('#header').addClass('header_image_2');
+              setTimeout(function() { set_header_image_1() },30000);
+          }
+          function set_header_image_1() {
+              $('#header').removeClass('header_image_2');
+              $('#header').addClass('header_image_1');
+              setTimeout(function() { set_header_image_2() },30000);
+          }
+          setTimeout(function() { set_header_image_2(); },30000);
+      });
+  </script>
+</body>
+</html>

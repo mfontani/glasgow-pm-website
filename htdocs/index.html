@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Glasgow.pm: Glasgow Perl Mongers</title>
+    <meta name="keywords" content="Glasgow Perl">
+    <link rel="stylesheet" href="/glasgow-site.css" />
+    <script src="/jquery-1.4.2.min.js"></script>
+</head>
+<body>
+
+
+  <div id="page">
+
+    <div id="header" class="header_image_1">
+      <ul id="menu" class="tabs">
+        <li><a class="header_selected" href="/">Home</a></li>
+        <li><a href="/about_us.html">About us</a></li>
+        <li><a href="/meetings.html">Meetings</a></li>
+        <li><a title="Google Groups" href="http://groups.google.com/group/glasgowpm">Mailing List</a></li>
+        <li><a style="float: right;padding-right:15px;" href="/join.html">Join us</a></li>
+      </ul>
+    </div>
+
+    <div id="body">
+      <h1>Glasgow Perl Mongers</h1>
+      <hr />
+
+      <div>
+          Our mailing list can be found on
+          <a href="http://groups.google.com/group/glasgowpm">Google Groups</a>.
+      </div>
+      <div>
+          If you live or work in the Glasgow area and would like to
+          participate in our technical and social meetings, join the
+          mailing list.
+      </div>
+      <div>
+          <em>News</em>: Looks like we have a venue; stay tuned for more information.
+      </div>
+
+      <div class="divider">&nbsp;</div>
+      <div id="twitter">
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '#perl',
+  interval: 6000,
+  title: 'Latest tweets about...',
+  subject: '#perl',
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#8ec1da',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#1985b5'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: true,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    toptweets: true,
+    behavior: 'default'
+  }
+}).render().start();
+</script>
+      </div>
+    </div>
+
+    <div id="footer">
+      <span id="updated">Last updated: 2010-08-30</span> by Marco Fontani
+      --
+      <span id="credits">Header picture by <a href="http://www.flickr.com/photos/ramsaythomson/10941270/">ramsaythomson</a>,
+      <a href="http://creativecommons.org/licenses/by-sa/2.0/deed.en_GB">CC/by_SA</a></span>
+      --
+      Site created using <a href="http://search.cpan.org/dist/Text-Xslate/">Text::Xslate</a>
+    </div>
+
+  </div>
+  <script>
+      $(document).ready(function(){
+          function set_header_image_2() {
+              $('#header').removeClass('header_image_1');
+              $('#header').addClass('header_image_2');
+              setTimeout(function() { set_header_image_1() },30000);
+          }
+          function set_header_image_1() {
+              $('#header').removeClass('header_image_2');
+              $('#header').addClass('header_image_1');
+              setTimeout(function() { set_header_image_2() },30000);
+          }
+          setTimeout(function() { set_header_image_2(); },30000);
+      });
+  </script>
+</body>
+</html>

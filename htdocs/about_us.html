@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Glasgow.pm: Glasgow Perl Mongers</title>
+    <meta name="keywords" content="Glasgow Perl">
+    <link rel="stylesheet" href="/glasgow-site.css" />
+    <script src="/jquery-1.4.2.min.js"></script>
+</head>
+<body>
+
+
+  <div id="page">
+
+    <div id="header" class="header_image_1">
+      <ul id="menu" class="tabs">
+        <li><a href="/">Home</a></li>
+        <li><a class="header_selected" href="/about_us.html">About us</a></li>
+        <li><a href="/meetings.html">Meetings</a></li>
+        <li><a title="Google Groups" href="http://groups.google.com/group/glasgowpm">Mailing List</a></li>
+        <li><a style="float: right;padding-right:15px;" href="/join.html">Join us</a></li>
+      </ul>
+    </div>
+
+    <div id="body">
+      <h1>About Glasgow Perl Mongers</h1>
+      <hr />
+
+      <h3>What is Glasgow.pm?</h3>
+      <div class="article">
+        Glasgow Perl Mongers is a group of people who use <a href="http://www.perl.org/">Perl</a>
+        in their work or personal programming projects, and like to meet and talk about it.
+      </div>
+
+      <div class="divider">&nbsp;</div>
+
+      <h3>How do I get in touch?</h3>
+      <div class="article">
+        Contact us via the <a href="http://groups.google.com/group/glasgowpm">mailing list</a>.<br />
+        If you want to get in touch with the leader, e-mail mfontani at cpan dot org.
+      </div>
+    </div>
+
+    <div id="footer">
+      <span id="updated">Last updated: 2010-08-28</span> by Marco Fontani
+      --
+      <span id="credits">Header picture by <a href="http://www.flickr.com/photos/ramsaythomson/10941270/">ramsaythomson</a>,
+      <a href="http://creativecommons.org/licenses/by-sa/2.0/deed.en_GB">CC/by_SA</a></span>
+      --
+      Site created using <a href="http://search.cpan.org/dist/Text-Xslate/">Text::Xslate</a>
+    </div>
+
+  </div>
+  <script>
+      $(document).ready(function(){
+          function set_header_image_2() {
+              $('#header').removeClass('header_image_1');
+              $('#header').addClass('header_image_2');
+              setTimeout(function() { set_header_image_1() },30000);
+          }
+          function set_header_image_1() {
+              $('#header').removeClass('header_image_2');
+              $('#header').addClass('header_image_1');
+              setTimeout(function() { set_header_image_2() },30000);
+          }
+          setTimeout(function() { set_header_image_2(); },30000);
+      });
+  </script>
+</body>
+</html>
