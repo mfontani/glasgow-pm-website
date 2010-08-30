@@ -1,0 +1,49 @@
+=head1 NAME
+
+glasgow-pm-website - the website for Glasgow.pm
+
+=head1 WEBSITE
+
+L<Glasgow.pm|http://glasgow.darkpan.com> is the website for the
+Glasgow L<Perl Mongers|http://www.pm.org/>.
+
+=head1 IMAGES
+
+See images.txt on the repository for which images' copyrights
+belongs to which author, and which license is the image released
+under. TLDR: they're all CC licensed.
+
+=head1 OTHER COPYRIGHTS
+
+The big CSS file contains other people's work:
+
+=over
+
+=item css/reset.css
+
+Created by
+L<Erik Meyer|http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/> and
+has been adapted by L<Andy Wardley|http://wardley.org/>.
+
+=item css/typography.css
+
+Created by L<Andy Wardley|http://wardley.org> and derived from the
+L<Blueprint CSS framework|http://bjorkoy.com/blueprint/>.
+
+=back
+
+=head1 COPYRIGHT
+
+The rest of the contents are Copyright 2010, the AUTHORS of this repository,
+and released under the
+L<Artistic License 2.0|http://www.perlfoundation.org/artistic_license_2_0>.
+
+=head1 AUTHORS
+
+Marco Fontani, mfontani at cpan org
+
+=head1 PATCHES
+
+Patches are welcome. When a patch is included, the above L<AUTHORS> section
+will also be updated.
+
