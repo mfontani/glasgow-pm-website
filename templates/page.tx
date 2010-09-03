@@ -21,7 +21,7 @@
       <ul id="menu" class="tabs">
         <li><a <: header_for('Home') :>href="/">Home</a></li>
         <li><a <: header_for('About us') :>href="/about_us.html">About us</a></li>
-        <li><a <: header_for('Meetings') :>href="/meetings.html">Meetings</a></li>
+        <li><a <: header_for('Meetings') :>href="/meetings/index.html">Meetings</a></li>
         <li><a title="Google Groups" href="http://groups.google.com/group/glasgowpm">Mailing List</a></li>
         <li><a <: header_for('Join us') :>style="float: right;padding-right:15px;" href="/join.html">Join us</a></li>
       </ul>
