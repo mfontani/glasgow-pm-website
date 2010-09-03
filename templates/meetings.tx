@@ -1,9 +1,6 @@
 : cascade "page.tx" { current_page => 'Meetings', last_updated => '2010-08-28', }
 : around body -> {
-      <h1>Glasgow Perl Mongers</h1>
-      <hr />
-
-      <h2>Information about meetings</h2>
+      <h1>Glasgow Perl Mongers Meetings</h1>
       <hr />
 
       <h3>When do meetings take place?</h3>
@@ -14,6 +11,14 @@
         it is likely meetings will be held on the second week of the month,
         possibly on Thursdays.<br />
         As soon as a decision is made, this section will contain the next three meetings' dates.
+      </div>
+
+      <div class="divider">&nbsp;</div>
+
+      <h3>Next meeting</h3>
+      <div class="article">
+        As discussed on the mailing list, our next meeting (social, our first) will
+        be on <a href="/meetings/2010-09-09.html">Thursday 2010-09-09</a>.
       </div>
 
       <div class="divider">&nbsp;</div>
