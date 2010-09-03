@@ -1,0 +1,30 @@
+: cascade "page.tx" { current_page => 'Meetings', last_updated => '2010-09-03', }
+: around body -> {
+
+    <h1>Glasgow Perl Mongers Social</h1>
+    <h2>Thursday 2010-09-09</h2>
+
+    <hr />
+
+    <div>
+        On Thursday 2010-09-09, the day after the second Wednesday of September,
+        the <a href="http://glasgow.darkpan.com/">Glasgow Perl Mongers</a> will
+        meet for the first time at <mark>a place yet to be specified</mark>
+        for the first social gathering of the newly born group.
+    </div>
+
+    <div>
+        As mentioned on the mailing list, we will meet to get to know each other,
+        to discuss the preferred meeting day and week, what kind of talks are we
+        going to have on the next technical meeting, and on which topics.
+    </div>
+
+    <div class="divider">&nbsp;</div>
+
+    <div>
+        Our next gathering should be on the second Thursday of October (2010-10-08) or on
+        the day after the second Wednesday of October (2010-10-15), depending on
+        what the group will reach consensus upon.
+    </div>
+
+: }
