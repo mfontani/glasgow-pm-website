@@ -357,6 +357,22 @@ ul.tabs li a {
   //width: 350px;
 }
 
+h1,h2,h3,h4,h5 {
+    font-family: 'Lobster', serif;
+    font-style: italic;
+    text-shadow: none;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0em;
+    word-spacing: 0em;
+    line-height: 1em;
+}
+
+h1 {
+    text-shadow: 2px 2px 2px #bbb;
+    font-size: 40px;
+}
+
 /*------------------------------------------------------------------------
  * end of Site CSS
  *------------------------------------------------------------------------*/
