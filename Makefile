@@ -15,4 +15,4 @@ push:
 	git push origin master
 
 edit:
-	vim -p templates/* htdocs/glasgow-site.css
+	vim -p $$(find templates/ -type f -name '*.tx') htdocs/glasgow-site.css
