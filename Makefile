@@ -1,4 +1,4 @@
-all: prereqs xslate scp push
+all: prereqs xslate
 
 xslate:
 	xslate -d 1 -w 5 templates/ -I templates/meetings/ -o htdocs/ -x tx=html -i 'page.tx|.swp'
