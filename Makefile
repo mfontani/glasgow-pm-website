@@ -16,3 +16,6 @@ push:
 
 edit:
 	vim -p $$(find templates/ -type f -name '*.tx') htdocs/glasgow-site.css
+
+minify:
+	~/bin/yuicompressor-2.4.2.jar -o htdocs/glasgow-site-mini.css htdocs/glasgow-site.css
