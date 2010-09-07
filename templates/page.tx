@@ -4,7 +4,7 @@
     <title>Glasgow.pm: Glasgow Perl Mongers<: $title :></title>
     <meta name="keywords" content="Glasgow Perl">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster:regular" type="text/css" >
-    <link rel="stylesheet" href="/glasgow-site.css" />
+    <link rel="stylesheet" href="/glasgow-site-mini.css" />
     <script src="/jquery-1.4.2.min.js"></script>
 </head>
 <body>
