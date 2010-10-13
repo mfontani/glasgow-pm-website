@@ -1,4 +1,4 @@
-: cascade "page.tx" { current_page => 'Home', last_updated => '2010-09-06', }
+: cascade "page.tx" { current_page => 'Home', last_updated => '2010-10-13', }
 : around body -> {
       <h1>Glasgow Perl Mongers</h1>
       <hr />
@@ -13,11 +13,10 @@
           mailing list.
       </div>
       <div>
-          <em>News</em>: We have a venue! Stay tuned for more information, or
-          join us on our next (first!) social meeting, scheduled for
-          <a href="/meetings/2010-09-09.html">Thursday 2010-09-09</a>
+          <em>News</em>: Join us on our first technical meeting, scheduled for
+          <a href="/meetings/2010-10-14.html">Thursday 2010-10-14</a>
           at
-          <a href="http://www.thepotstill.co.uk/">The Pot Still</a>.
+          <a href="http://bit.ly/bTFAFK ">S1's offices</a>.
       </div>
 
       <div class="divider">&nbsp;</div>

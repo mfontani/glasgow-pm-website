@@ -1,4 +1,4 @@
-: cascade "page.tx" { current_page => 'Meetings', last_updated => '2010-08-28', }
+: cascade "page.tx" { current_page => 'Meetings', last_updated => '2010-10-13', }
 : around body -> {
       <h1>Glasgow Perl Mongers Meetings</h1>
       <hr />
@@ -17,18 +17,17 @@
 
       <h3>Next meeting</h3>
       <div class="article">
-        As discussed on the mailing list, our next meeting (social, our first) will
-        be on <a href="/meetings/2010-09-09.html">Thursday 2010-09-09</a>
-        at <a href="http://www.thepotstill.co.uk/">The Pot Still</a>.
+        As discussed on the mailing list, our next meeting (our first technical meeting) will
+        be on <a href="/meetings/2010-10-14.html">Thursday 2010-10-14</a> at 18:15.
       </div>
 
       <div class="divider">&nbsp;</div>
 
       <h3>Where do technical meetings take place?</h3>
       <div class="article">
-        The group has been promised a venue; details are being collected,
-        and information will be displayed here and sent on the mailing list
-        as soon as possible.
+          The group has been given access to a room/projector at
+          <a href="http://www.s1thecompany.com/">S1</a>'s offices in Glasgow,
+          located at 200 Renfield street (<a href="http://bit.ly/bTFAFK">Google maps link</a>).
       </div>
 
       <div class="divider">&nbsp;</div>
@@ -46,5 +45,14 @@
         Heh, we'd have to have a meeting first! The aim is to either host the slides on this server, or
         to have specific pages for each of our technical meetings and -- providing the author doesn't mind
         -- the slides will be available shortly after the meeting.
+      </div>
+
+      <div class="divider">&nbsp;</div>
+
+      <h3>Past meetings</h3>
+      <div class="article">
+          <ul>
+              <li><a href="/meetings/2010-09-09.html">2010-09-09</a> - social meeting</li>
+          </ul>
       </div>
 : }
