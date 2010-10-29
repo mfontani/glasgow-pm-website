@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Glasgow.pm: Glasgow Perl Mongers</title>
+    <meta name="keywords" content="Glasgow Perl">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster:regular" type="text/css" >
+    <link rel="stylesheet" href="/glasgow-site-mini.css" />
+    <script src="/jquery-1.4.2.min.js"></script>
+</head>
+<body>
+
+
+  <div id="page">
+
+    <div id="header" class="header_image_1">
+      <ul id="menu" class="tabs">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about_us.html">About us</a></li>
+        <li><a class="header_selected" href="/meetings/index.html">Meetings</a></li>
+        <li><a title="Google Groups" href="http://groups.google.com/group/glasgowpm">Mailing List</a></li>
+        <li><a style="float: right;padding-right:15px;" href="/join.html">Join us</a></li>
+      </ul>
+    </div>
+
+    <div id="body">
+
+    <h1>Glasgow Perl Mongers Technical</h1>
+    <h2>Thursday 2010-11-11</h2>
+
+    <hr />
+
+    <div>
+        On Thursday 2010-11-11, the day after the second Wednesday of November,
+        the <a href="http://glasgow.pm.org/">Glasgow Perl Mongers</a> will
+        meet for the next technical meeting, at
+        <a href="http://www.s1thecompany.com/">S1</a>'s offices, in Glasgow.
+    </div>
+
+    <div class="divider">&nbsp;</div>
+    <h2>Technical meetings location:</h2>
+    <div>
+        200 Renfield Street - G2 3PR<br />
+        Google maps link (street view): <a href="http://bit.ly/bTFAFK">http://bit.ly/bTFAFK</a>.
+        The appointment is for 18:15 in front of the main entrance of the glass building.<br />
+        If you're late, give Marco a call at 07841-538170.
+    </div>
+
+    <div class="divider">&nbsp;</div>
+    <h2>Topics for this technical meeting</h2>
+    <div>
+        Miles Gould will present a talk comparing the
+        <a href="http://en.wikipedia.org/wiki/Distributed_Version_Control_System">DVCS</a>
+        <a href="http://darcs.net/">darcs</a> and <a href="http://git-scm.com/">Git</a>.
+        <br />
+        <a href="http://homepages.inf.ed.ac.uk/v1cyocum">Chris Yocum</a>, a
+        &quot;Celticist and Visiting Research Fellow&quot; at the School of Informatics, UofEd,
+        will give a talk about &quot;Loops without loops: Ocaml and Perl as functional languages&quot;.
+        <br />
+
+        There will be a <a href="http://en.wikipedia.org/wiki/Lightning_Talk">lightning talks</a>
+        session right after the talks, and the group will then likely go to a pub
+        for the &quot;local meeting&quot; of Drinkers.pm (the social event).
+    </div>
+
+    <div class="divider">&nbsp;</div>
+    <h2>The next meeting</h2>
+    <div>
+        Our next gathering will be on the second Thursday of December (2010-12-09),
+        at the same venue.
+    </div>
+
+    </div>
+
+    <div id="footer">
+      <span id="updated">Last updated: 2010-10-29</span> by Marco Fontani
+      --
+      <span id="credits">Header picture by <a href="http://www.flickr.com/photos/ramsaythomson/10941270/">ramsaythomson</a>,
+      <a href="http://creativecommons.org/licenses/by-sa/2.0/deed.en_GB">CC/by_SA</a></span>
+      --
+      Site created using <a href="http://search.cpan.org/dist/Text-Xslate/">Text::Xslate</a>
+      (<a href="http://github.com/mfontani/glasgow-pm-website">Git repo</a>)
+    </div>
+
+  </div>
+  <script>
+      $(document).ready(function(){
+          function set_header_image_2() {
+              $('#header').removeClass('header_image_1');
+              $('#header').addClass('header_image_2');
+              setTimeout(function() { set_header_image_1() },30000);
+          }
+          function set_header_image_1() {
+              $('#header').removeClass('header_image_2');
+              $('#header').addClass('header_image_1');
+              setTimeout(function() { set_header_image_2() },30000);
+          }
+          setTimeout(function() { set_header_image_2(); },30000);
+      });
+  </script>
+</body>
+</html>
