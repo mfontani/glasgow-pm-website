@@ -1,4 +1,4 @@
-: cascade "page.tx" { current_page => 'Meetings', last_updated => '2010-10-13', }
+: cascade "page.tx" { current_page => 'Meetings', last_updated => '2010-10-29', }
 : around body -> {
       <h1>Glasgow Perl Mongers Meetings</h1>
       <hr />
@@ -18,7 +18,7 @@
       <h3>Next meeting</h3>
       <div class="article">
         As discussed on the mailing list, our next meeting (our first technical meeting) will
-        be on <a href="/meetings/2010-10-14.html">Thursday 2010-10-14</a> at 18:15.
+        be on <a href="/meetings/2010-11-11.html">Thursday 2010-11-11</a> at 18:15.
       </div>
 
       <div class="divider">&nbsp;</div>
@@ -52,6 +52,7 @@
       <h3>Past meetings</h3>
       <div class="article">
           <ul>
+              <li><a href="/meetings/2010-10-14.html">2010-10-14</a> - technical meeting</li>
               <li><a href="/meetings/2010-09-09.html">2010-09-09</a> - social meeting</li>
           </ul>
       </div>
