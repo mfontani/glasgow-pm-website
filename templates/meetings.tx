@@ -5,19 +5,15 @@
 
       <h3>When do meetings take place?</h3>
       <div class="article">
-        The group has not yet decided on a specific meeting date, but in order
-        to not co-incide with the timing of the Edinburgh.pm's meetings
-        (fourth Thursday of the month)
-        it is likely meetings will be held on the second week of the month,
-        possibly on Thursdays.<br />
-        As soon as a decision is made, this section will contain the next three meetings' dates.
+        Meetings are held on &quot;the day after the second Wednesday of the month&quot;,
+        that is usually the second Thursday of the month unless the month begins on a Thursady.
       </div>
 
       <div class="divider">&nbsp;</div>
 
       <h3>Next meeting</h3>
       <div class="article">
-        As discussed on the mailing list, our next meeting (our first technical meeting) will
+        As discussed on the mailing list, our next technical meeting will
         be on <a href="/meetings/2010-11-11.html">Thursday 2010-11-11</a> at 18:15.
       </div>
 
@@ -36,15 +32,16 @@
       <div class="article">
         The aim is to have predominantly technical meetings, with the odd social meeting once in a while.
         The timing of the meetings does also allow members from nearby Perl Mongers group to participate.<br />
-        If you're interested, please join the discussion on the <a href="http://groups.google.com/group/glasgowpm">mailing list</a> to voice your opinion.
+        If you're interested, please join the discussion on the
+        <a href="http://groups.google.com/group/glasgowpm">mailing list</a> to voice your opinion.
       </div>
 
       <div class="divider">&nbsp;</div>
       <h3>Where are the meetings slides?</h3>
       <div class="article">
-        Heh, we'd have to have a meeting first! The aim is to either host the slides on this server, or
-        to have specific pages for each of our technical meetings and -- providing the author doesn't mind
-        -- the slides will be available shortly after the meeting.
+        Each meeting's page usually contains links to the websites of the people
+        who submitted and held a talk. Sometimes the author also provides a link to
+        the talk, in which case the meetings pages are amended to contain such links.
       </div>
 
       <div class="divider">&nbsp;</div>
