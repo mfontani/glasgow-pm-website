@@ -1,0 +1,37 @@
+: cascade "page.tx" { current_page => 'Wellingraptor', last_updated => '2010-11-12', }
+: around body -> {
+      <h1>Glasgow Perl Mongers Logo</h1>
+      <div class="article">
+        During the November 2010 meeting, a &quot;catchy logo&quot; for the
+        group has been proposed during a lightning talk. It's based on the
+        iconic &quot;Duke of Wellington&quot; statue in Glasgow, which usually
+        gets a cone on the poor duke's head, and a velociraptor, understood
+        to be nowadays a symbol for Perl 5.
+      </div>
+
+      <div class="divider">&nbsp;</div>
+
+      <h3>Where do I get it?</h3>
+      <div class="article">
+        The logo is available as a <a href="/wellingraptor.svg">SVG image</a>.
+        It has been created with Gimp, Inkscape, and other Free Software.
+      </div>
+
+      <div class="divider">&nbsp;</div>
+
+      <h3>Can I have a t-shirt with it?</h3>
+      <div class="article">
+        But of course! As shown during the lightning talk in November,
+        t-shirts, polo shirts and even a hoodie are available at the
+        <a href="http://glasgowpm.spreadshirt.co.uk">Glasgow.pm shirts shop</a>.
+      </div>
+
+      <div class="divider">&nbsp;</div>
+
+      <h3>It doesn't have the stuff *I* want!</h3>
+      <div class="article">
+        Contact me at MFONTANI at cpan dot org with a description of the
+        spreadshirt apparel you'd like the logo printed on, and I'll make
+        it available. Alternatively just use the SVG and DIY :)
+      </div>
+: }
