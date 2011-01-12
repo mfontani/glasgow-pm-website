@@ -1,4 +1,4 @@
-: cascade "page.tx" { current_page => 'Meetings', last_updated => '2010-12-13', }
+: cascade "page.tx" { current_page => 'Meetings', last_updated => '2011-01-12', }
 : around body -> {
 
     <h1>Glasgow Perl Mongers Technical</h1>
@@ -25,11 +25,16 @@
     <div class="divider">&nbsp;</div>
     <h2>Topics for this technical meeting</h2>
     <div>
-        FIXME
-
+        <a href="http://darkpan.com/">Marco Fontani</a> will do a talk on his
+        <a href="https://github.com/mfontani/git-fuse-perl">Fuse interface to a Git repository</a>.<br />
+        <a href="http://pozorvlak.livejournal.com/">Miles Gould</a> will do a talk on 
+        <a href="http://pozorvlak.livejournal.com/159126.html">Redo from scratch</a>.<br />
         There will be a <a href="http://en.wikipedia.org/wiki/Lightning_Talk">lightning talks</a>
         session right after the talks, and the group will then likely go to a pub
-        for the &quot;local meeting&quot; of Drinkers.pm (the social event).
+        for the &quot;local meeting&quot; of Eaters.pm and Drinkers.pm (the social event).<br />
+        Some of the Mongers will later go to
+        <a href="http://maps.google.co.uk/maps/place?q=nice+n+sleazy+glasgow&fb=1&gl=uk&hq=nice+n+sleazy&hnear=Glasgow,+City+of+Glasgow&cid=1502320369417431658">Nice n sleazy</a>
+        for some live music/beers.
     </div>
 
     <div class="divider">&nbsp;</div>
