@@ -1,13 +1,13 @@
-: cascade "page.tx" { current_page => 'Meetings', last_updated => '2011-01-22', }
+: cascade "page.tx" { current_page => 'Meetings', last_updated => '2011-02-26', }
 : around body -> {
 
     <h1>Glasgow Perl Mongers Technical</h1>
-    <h2>Thursday 2011-02-10</h2>
+    <h2>Thursday 2011-03-10</h2>
 
     <hr />
 
     <div>
-        On Thursday 2011-02-10, the day after the second Wednesday of February,
+        On Thursday 2011-03-10, the day after the second Wednesday of March,
         the <a href="http://glasgow.pm.org/">Glasgow Perl Mongers</a> will
         meet for the next technical meeting, at
         <a href="http://www.s1thecompany.com/">S1</a>'s offices, in Glasgow.
@@ -25,15 +25,20 @@
     <div class="divider">&nbsp;</div>
     <h2>Topics for this technical meeting</h2>
     <div>
-        Unfortunately this meeting was cancelled due to the low attendance,
-        as Donald Knuth took a lecture at the local University and many
-        attended this event.
+        Murray Walker (@mintywalker) will talk about minimising HTML on his personal homepage,
+        whilst keeping the HTML markup used valid.
+        Marco Fontani (@mfontani) will bring a talk about Dancer, the Perl web framework.
+        Others have volunteered to bring talks but are not sure yet.
+
+        There will be a <a href="http://en.wikipedia.org/wiki/Lightning_Talk">lightning talks</a>
+        session right after the talks, and the group will then likely go to a pub
+        for the &quot;local meeting&quot; of Drinkers.pm (the social event).
     </div>
 
     <div class="divider">&nbsp;</div>
     <h2>The next meeting</h2>
     <div>
-        Our next gathering will be on the second Thursday of March (2011-03-10),
+        Our next gathering will be on the second Thursday of April (2011-04-14),
         at the same venue.
     </div>
 
