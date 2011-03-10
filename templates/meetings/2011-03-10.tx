@@ -25,10 +25,10 @@
     <div class="divider">&nbsp;</div>
     <h2>Topics for this technical meeting</h2>
     <div>
-        Murray Walker (@mintywalker) will talk about minimising HTML on his personal homepage,
+        Murray Walker (<a href="http://twitter.com/mintywalker">@mintywalker</a>) will talk about minimising HTML on his personal homepage,
         whilst keeping the HTML markup used valid.
-        Marco Fontani (@mfontani) will bring a talk about Dancer, the Perl web framework.
-        Aaron Crane (@aaroncrane) will bring a talk about monkey patching.
+        Marco Fontani (<a href="http://twitter.com/mfontani">@mfontani</a>) will bring a talk about Dancer, the Perl web framework.
+        Aaron Crane (<a href="http://twitter.com/aaroncrane">@aaroncrane</a>) will bring a talk about monkey patching.
         Others have volunteered to bring talks but are not sure yet.
 
         There will be a <a href="http://en.wikipedia.org/wiki/Lightning_Talk">lightning talks</a>
