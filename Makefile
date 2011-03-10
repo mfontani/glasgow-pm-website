@@ -1,12 +1,15 @@
 all: prereqs xslate
 
+PERL := perl
+XSLATE := xslate
+
 xslate:
-	xslate -c .cache -d 1 -w 5 templates/ -I templates/meetings/ -o htdocs/ -x tx=html -i 'page.tx|.swp'
+	$(XSLATE) -c .cache -d 1 -w 5 templates/ -I templates/meetings/ -o htdocs/ -x tx=html -i 'page.tx|.swp'
 	mv htdocs/201?-* htdocs/meetings/
 	mv htdocs/meetings.html htdocs/meetings/index.html
 
 prereqs:
-	perl prereqs.pl
+	$(PERL) prereqs.pl
 
 scp:
 	scp -r htdocs/* darkpan:/var/www/glasgow/
