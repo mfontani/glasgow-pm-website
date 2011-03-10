@@ -60,7 +60,7 @@ printf(
     <div>
         On Thursday $next_meeting_yyyymmdd, the day after the second Wednesday of $next_meeting_month,
         the <a href="http://glasgow.pm.org/">Glasgow Perl Mongers</a> will
-        meet for the next technical meeting, at
+        meet for their next technical meeting, at
         <a href="http://www.s1thecompany.com/">S1</a>'s offices, in Glasgow.
     </div>
 
@@ -70,7 +70,7 @@ printf(
         200 Renfield Street - G2 3PR<br />
         Google maps link (street view): <a href="http://bit.ly/bTFAFK">http://bit.ly/bTFAFK</a>.
         The appointment is for 18:15 in front of the main entrance of the glass building.<br />
-        If you're late, give Marco a call at 07841-538170.
+        If you're late, give Marco a call on 07841-538170.
     </div>
 
     <div class="divider">&nbsp;</div>
