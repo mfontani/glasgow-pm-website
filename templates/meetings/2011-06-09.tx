@@ -1,0 +1,50 @@
+: cascade "page.tx" { current_page => 'Meetings', last_updated => '2011-06-02', }
+: around body -> {
+
+    <h1>Glasgow Perl Mongers Technical</h1>
+    <h2>Thursday 2011-06-09</h2>
+
+    <hr />
+
+    <div>
+        On Thursday 2011-06-09, the day after the second Wednesday of June,
+        the <a href="http://glasgow.pm.org/">Glasgow Perl Mongers</a> will
+        meet for their next technical meeting, at
+        <a href="http://www.s1thecompany.com/">S1</a>'s offices, in Glasgow.
+    </div>
+
+    <div class="divider">&nbsp;</div>
+    <h2>Technical meetings location:</h2>
+    <div>
+        200 Renfield Street - G2 3PR<br />
+        Google maps link (street view): <a href="http://bit.ly/bTFAFK">http://bit.ly/bTFAFK</a>.
+        The appointment is for 18:15 in front of the main entrance of the glass building.<br />
+        If you're late, give Marco a call on 07841-538170.
+    </div>
+
+    <div class="divider">&nbsp;</div>
+    <h2>Topics for this technical meeting</h2>
+    <div>
+        No speakers have yet submitted any talks.<br />
+
+        <br />
+        This meeting's lightning talks topic is, &quot;Poetic Perl&quot;.<br />
+        Anybody is welcome to bring a small lightning talk about poetry in Perl,
+        from a small Perl haiku to a compileable Perl poem. Bonus points are awarded,
+        in the form of free beer, for poetic entries which do compile. More free beer
+        is awarded in case the poetic program does something useful.<br />
+        <br />
+
+        There will be a <a href="http://en.wikipedia.org/wiki/Lightning_Talk">lightning talks</a>
+        session right after the talks, and the group will then likely go to a pub
+        for the &quot;local meeting&quot; of Drinkers.pm (the social event).
+    </div>
+
+    <div class="divider">&nbsp;</div>
+    <h2>The next meeting</h2>
+    <div>
+        Our next gathering will be on the second Thursday of July (2011-07-14),
+        at the same venue.
+    </div>
+
+: }
